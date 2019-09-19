@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/montserrat"
+        android:text="R: 0"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="255"
+        android:progress="0"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/montserrat"
+        android:text="G: 0"
+        android:textSize="18sp" />
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="255"
+        android:progress="0"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/montserrat"
+        android:text="B: 0"
+        android:textSize="18sp" />
+
+    <SeekBar
+        android:id="@+id/seekBar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="255"
+        android:progress="0"
+
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center"
+        android:text="#FFFFFF"
+        android:textSize="24sp" />
+
+    <View
+        android:id="@+id/View5"
+        android:layout_width="match_parent"
+        android:layout_height="193dp"
+        android:layout_margin="10dp"
+        android:background="@color/colorNew" />
+
+</LinearLayout>
